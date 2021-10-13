@@ -8,7 +8,6 @@ First, backup your default configuration files
 ```
 sudo cp /usr/share/X11/xkb/rules/evdev.xml /usr/share/X11/xkb/rules/original.evdev.xml 
 sudo cp /usr/share/X11/xkb/symbols/ir /usr/share/X11/xkb/symbols/original.ir
-
 ```
 Then, Substitute ``ir`` and ``evdev.xml`` files of this repository with your system defaults.
 
